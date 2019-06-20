@@ -1,0 +1,166 @@
+.done {
+    text-decoration: line-through;
+}
+
+/* Task 2 */
+
+header > * {
+    text-align: center;
+}
+
+/* Task 3 */
+
+.blue {
+    color: blue;
+}
+
+/* Task 4 and 5*/
+
+.background {
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block
+}
+
+/* Task 6 */
+
+img[alt="Image 2"] {
+    padding: 25px;
+    border: 25px solid blue;
+
+    box-sizing: border-box;
+}
+
+/* Task 7 */
+div > span:nth-child(even) {
+    background-color: blue;
+}
+
+/*  Task 8 */
+
+@media only screen and (max-width: 767px) {
+    .mediaquery {
+        background-color: blue;
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mediaquery {
+        background-color: yellow;
+        width: 7rem;
+        height: 7rem;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .mediaquery {
+        background-color: red;
+        width: 10rem;
+        height: 10rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .mediaquery {
+        background-color: purple;
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+/* Task 9 */
+
+.relative {
+    position: relative;
+    float: right;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Task 10 */
+
+main {
+    margin-top: 250px;
+}
+
+/* Task 11 */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.item {
+      flex-grow: 1;
+}
+
+/* Task 12 */
+
+.wrapper {
+    width: 300px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: 1px solid black;
+    grid-gap: 5px;
+}
+
+.cell {
+    border: 1px solid red;
+}
+
+.two {
+    grid-row: 2 / span 2;
+}
+
+.three {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.seven {
+    grid-column: 2 / span 2;
+}
+
+/* Task 13 */
+
+.h3elements {
+    color: red;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+
+/* Task 14 */
+
+footer a:visited {
+    color: aqua;
+}
+
+footer a:hover {
+    color: coral;
+}
+
+/* Task 15 */
+
+main li {
+    text-decoration: line-through;
+}
